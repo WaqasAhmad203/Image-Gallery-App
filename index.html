@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+
+    <header>
+        <div id="logo">
+            <h1>Image Gallery</h1>
+        </div>
+        <div id="uploadBtnContainer">
+            <label for="uploadBtn" id="uploadLabel">Upload Image</label>
+            <input type="file" id="uploadBtn" accept="image/*">
+        </div>
+    </header>
+
+    <div id="gallery"></div>
+
+    <div id="imageModal">
+        <div id="modalContent">
+            <span id="closeModal">&times;</span>
+            <img id="modalImage" alt="Enlarged Image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
